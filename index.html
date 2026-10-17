@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Employee Registration Form</h1>
+
+        <form id="employeeForm">
+
+            <label>Employee Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <span id="nameError"></span>
+
+            <label>Email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <span id="emailError"></span>
+
+            <label>Password:</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <span id="passwordError"></span>
+
+            <label>Phone Number:</label>
+            <input type="text" id="phone" placeholder="Enter phone number">
+            <span id="phoneError"></span>
+
+            <label>Department:</label>
+            <select id="department">
+                <option value="">Select Department</option>
+                <option value="IT">IT</option>
+                <option value="HR">HR</option>
+                <option value="Finance">Finance</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Sales">Sales</option>
+            </select>
+            <span id="departmentError"></span>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p id="success"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
